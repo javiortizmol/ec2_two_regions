@@ -9,6 +9,6 @@
 ./tf-tool.sh plan
 ````
 2. Run the apply command to deploy changes previously reviewed.
-````bash
+```bash
 ./tf-tool.sh apply
 ```
