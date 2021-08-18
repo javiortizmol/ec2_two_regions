@@ -7,12 +7,14 @@
 #3. Put your aws credentials on the variables AWSACCESSKEY & AWSSECRETKEY
 
 # Global Variables
-AWSACCESSKEY=""
-AWSSECRETKEY=""
+# AWSACCESSKEY=""
+# AWSSECRETKEY=""
 
 
-export AWS_ACCESS_KEY_ID="$AWSACCESSKEY"
-export AWS_SECRET_ACCESS_KEY="$AWSSECRETKEY"
+# export AWS_ACCESS_KEY_ID="$AWSACCESSKEY"
+# export AWS_SECRET_ACCESS_KEY="$AWSSECRETKEY"
+
+export AWS_PROFILE=myprofile
 
 terraform init
 

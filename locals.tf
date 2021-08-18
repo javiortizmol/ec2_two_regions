@@ -1,12 +1,12 @@
 locals {
     vpc = {
         subnets = {
-            main = ""
-            provisional = ""            
+            main = "subnet-0e0326a44203eb17f"
+            provisional = "subnet-87cb0ae1"            
         }
         sec_groups = {
-            main = []
-            provisional = []
+            main = ["sg-522b1e16"]
+            provisional = ["sg-005ea6050933f5501"]
         }
     }
     ec2 ={
