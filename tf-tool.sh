@@ -18,10 +18,6 @@ export AWS_PROFILE=myprofile
 
 terraform init
 
-if [ "$1" == "plan" ]; then
-    terraform plan 
-fi
-
-if [ "$1" == "apply" ]; then
-    terraform apply 
+if [ "$1" == "plan" ] || [ "$1" == "apply" ] || [ "$1" == "destroy" ] ; then
+    terraform $1 
 fi
