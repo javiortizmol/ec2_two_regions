@@ -12,3 +12,7 @@
 ```bash
 ./tf-tool.sh apply
 ```
+3. Run the destroy command to destroy all the infrastructure created.
+```bash
+./tf-tool.sh destroy
+```
